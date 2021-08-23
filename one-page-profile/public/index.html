@@ -7,14 +7,13 @@
 		<title>One Page Profile | Tailwind Template</title>
 	</head>
 	<body class="w-auto h-auto bg-gradient-to-tr from-gray-100 to-gray-200 font-sans text-gray-800">
-		<header class="fixed w-full h-auto">
+		<header class="fixed w-full h-auto px-52">
 			<nav class="flex justify-between">
 				<div class="">
-					
 				</div>
-				<ul class="flex uppercase font-semibold text-lg py-4">
+				<ul class="flex font-semibold text-md py-8 text-black-400">
 					<li class="px-3 hover:text-red-600">
-						<a href="" class="text-red-600 border-b-2 border-red-600">
+						<a href="" class="text-white border-b-2 border-red-600">
 							Home
 						</a>
 					</li>
@@ -25,7 +24,12 @@
 					</li>
 					<li class="px-3 hover:text-red-600">
 						<a href="">
-							Experience
+							Skills
+						</a>
+					</li>
+					<li class="px-3 hover:text-red-600">
+						<a href="">
+							Experiences
 						</a>
 					</li>
 					<li class="px-3 hover:text-red-600">
@@ -45,54 +49,64 @@
 			<section id="home" class="w-full h-screen flex">
 				<header class="w-1/2 flex items-center">
 					<div class="">
-						<h2 class="text-4xl py-2">Hello</h2>
-						<h1 class="text-6xl font-bold py-2">I'm John Doe</h1>
-						<p class="text-lg py-2">
+						<h2 class="text-6xl font-bold py-2">Hello</h2>
+						<h1 class="text-5xl font-bold py-2">I'm Ruslan</h1>
+						<p class="text-lg py-2 text-gray-400">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis.
 						</p>
 					</div>
 				</header>
-				<div class="w-1/2">
+				<div class="w-1/2 flex items-center justify-center">
+					<img src="assets/img/person.jpg" class="h-96 w-96"/>
 				</div>
 			</section>
-			<section id="about">
-				<header>
-					<h2 class="text-4xl font-semibold text-center py-2">Know me more</h2>
+			<section id="experience" class="py-12">
+				<header class="py-12 flex justify-center">
+					<h2 class="text-4xl font-semibold text-2xl py-2 border-b-4 border-gray-800 py-4">About</h2>
 				</header>
-			</section>
-			<section id="experience">
-				<header>
-					<h2 class="text-4xl font-semibold text-center text-2xl py-2">What I do</h2>
+			<section id="experience" class="py-12">
+				<header class="py-12 flex justify-center">
+					<h2 class="text-4xl font-semibold text-2xl py-2 border-b-4 border-gray-800 py-4">What I do</h2>
 				</header>
 				<div class="grid grid-cols-3 gap-12">
-					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-8 px-8">
-						<h3 class="text-2xl py-2 font-semibold">UI & UX Design</h2>
+					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-12 px-12">
+						<h3 class="text-6xl py-2 font-extralight leading-tight mb-4">UI & UX Design</h2>
 						<p class="text-md py-2">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat. Praesent in iaculis purus, eget vehicula dolor. Maecenas fringilla nisi at purus semper, eu commodo dui ornare.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat.
 						</p>
 					</div>
-					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-8 px-8">
-						<h3 class="text-2xl py-2 font-semibold">UI & UX Design</h2>
+					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-12 px-12">
+						<h3 class="text-6xl py-2 font-extralight leading-tight mb-4">Backend Engineer</h2>
 						<p class="text-md py-2">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat. Praesent in iaculis purus, eget vehicula dolor. Maecenas fringilla nisi at purus semper, eu commodo dui ornare.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat.
 						</p>
 					</div>
-					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-8 px-8">
-						<h3 class="text-2xl py-2 font-semibold">UI & UX Design</h2>
+					<div class="bg-gradient-to-tr from-gray-400 to-gray-300 text-gray-800 hover:bg-gradient-to-tr hover:from-gray-700 hover:to-gray-600 hover:text-gray-200 hover:shadow-xl py-12 px-12">
+						<h3 class="text-6xl py-2 font-extralight leading-tight mb-4">Frontend Engineer</h2>
 						<p class="text-md py-2">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat. Praesent in iaculis purus, eget vehicula dolor. Maecenas fringilla nisi at purus semper, eu commodo dui ornare.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis mollis turpis, non scelerisque eros lobortis nec. Quisque non interdum eros, et pellentesque nisi. Nunc a interdum ante, nec ullamcorper turpis. Morbi scelerisque auctor enim ut lacinia. Nulla sit amet tellus eu justo porta tempor. Etiam nec viverra lectus, quis pharetra justo. Morbi sodales pellentesque dolor quis interdum. Maecenas tempus nisl luctus tellus viverra, non fermentum risus feugiat.
 						</p>
 					</div>
 				</div>
 			</section>
-			<section id="portfolio">
-				<header>
-					<h2 class="text-2xl py-2">What I do</h2>
+			<section id="portfolio" class="py-12">
+				<header class="py-12 flex justify-center">
+					<h2 class="text-4xl font-semibold text-2xl py-2 border-b-4 border-gray-800 py-4">Portfolio</h2>
 				</header>
+				<div class="grid grid-cols-3 gap-12">
+					<div class="col-span-2 h-96 bg-gray-800 bg-cover shadow-xl" style="background-image:url('assets/img/porto2.jpg');">
+					</div>
+					<div class="h-96 bg-gray-800 bg-cover shadow-xl" style="background-image:url('assets/img/porto.jpg');">
+					</div>
+					<div class="h-96 bg-gray-800 bg-cover shadow-xl" style="background-image:url('assets/img/porto1.jpg');">
+					</div>
+					<div class="col-span-2 h-96 bg-gray-800 bg-cover shadow-xl" style="background-image:url('assets/img/porto3.jpg');">
+					</div>
+				</div>
 			</section>
-			<section id="contact">
-				<header>
-					<h2 class="text-4xl font-semibold text-center text-2xl py-2">Get in touch</h2>
+			<section id="contact" class="py-12">
+				<header class="py-12 flex justify-center">
+					<h2 class="text-4xl font-semibold text-2xl py-2 border-b-4 border-gray-800 py-4">Get in touch</h2>
 				</header>
 				<div class="flex">
 					<div class="w-1/2">
@@ -101,18 +115,19 @@
 						</p>
 					</div>
 					<div class="w-1/2">
-						<div class="bg-gradient-to-tr from-gray-700 to-gray-600 text-gray-200">
-							<form>
-								<input type="text"/>
-								<input type="email"/>
-								<textarea type="message"></textarea>
+						<div class="bg-gradient-to-tr from-gray-700 to-gray-600 text-gray-200 py-8 px-8">
+							<form class="flex flex-col gap-4">
+								<input type="text" class="bg-transparent border-b-2 border-gray-200"/>
+								<input type="email" class="bg-transparent border-b-2 border-gray-200"/>
+								<textarea type="message" class="bg-transparent border-b-2 border-gray-200"></textarea>
 							</form>
 						</div>
 					</div>
 				</div>
 			</section>
 		</div>
-		<footer>
+		<footer class="w-full h-auto bg-gray-800 flex justify-between text-gray-400 font-regular text-lg py-4">
+			<p class="">Crafted by Rai Raksa</p>
 		</footer>
 	</body>
 </html>

@@ -13,5 +13,8 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
   }
 }
