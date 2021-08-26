@@ -14,8 +14,8 @@
     </head>
     <body class='font-body'>
         <section id="header" class="relative flex flex-col gap-4 justify-center w-full h-screen bg-black overflow-hidden">
-            <div class="absolute overlay bg-black opacity-90">
-                <img class="object-contain" src="./assets/img/header.jpg">
+            <div class="absolute overlay bg-black opacity-90 w-full">
+                <img class="object-cover w-full" src="./assets/img/header.jpg">
             </div>
             <nav class="navigation-bar absolute w-full top-0 left-0 flex justify-between px-32 h-20">
                 <img class="logo" src=""/>
@@ -85,9 +85,9 @@
                 Add our new arrivals to your weekly lineup.
             </p>
             <div class="items flex flex-row gap-4">
-                <div class="flex flex-col gap-2 w-1/4 h-96">
-                    <div class="relative w-full h-72 bg-gray-200 overflow-hidden">
-                        <img class="object-contain" src="./assets/img/product-1.jpg"/>
+                <div class="flex flex-col gap-2 w-1/4 h-auto">
+                    <div class="relative w-full h-96 bg-gray-200 overflow-hidden">
+                        <img class="object-cover" src="./assets/img/product-1.jpg"/>
                     </div>
                     <h5 class="text-black text-sm mt-4">
                         Yellow Jumper
@@ -96,11 +96,9 @@
                         $79.99
                     </h3>
                 </div>
-                <div class="flex flex-col gap-2 w-1/4 h-96">
-                    <div class="relative w-full h-72 bg-gray-200">
-                        <div class="w-full h-72 bg-gray-200 overflow-hidden">
-                            <img class="object-contain" src="./assets/img/product-2.jpg"/>
-                        </div>
+                <div class="flex flex-col gap-2 w-1/4 h-auto">
+                    <div class="relative w-full h-96 bg-gray-200 overflow-hidden">
+                        <img class="object-cover" src="./assets/img/product-2.jpg"/>
                         <label class="absolute top-4 left-4 text-white text-xs font-semibold bg-black rounded-md py-1 px-2">
                             NEW
                         </label>
@@ -112,11 +110,9 @@
                         $79.99
                     </h3>
                 </div>
-                <div class="flex flex-col gap-2 w-1/4 h-96">
-                    <div class="relative w-full h-72 bg-gray-200">
-                        <div class="w-full h-72 bg-gray-200 overflow-hidden">
-                            <img class="object-contain" src="./assets/img/product-3.jpg"/>
-                        </div>
+                <div class="flex flex-col gap-2 w-1/4 h-auto">
+                    <div class="relative w-full h-96 bg-gray-200 overflow-hidden">
+                        <img class="object-contain" src="./assets/img/product-3.jpg"/>
                         <label class="absolute top-4 left-4 text-white text-xs font-semibold bg-red-500 rounded-md py-1 px-2">
                             25%
                         </label>
@@ -133,8 +129,8 @@
                         </h3>
                     </span>
                 </div>
-                <div class="flex flex-col gap-2 w-1/4 h-96">
-                    <div class="relative w-full h-72 bg-gray-200 overflow-hidden">
+                <div class="flex flex-col gap-2 w-1/4 h-auto">
+                    <div class="relative w-full h-96 bg-gray-200 overflow-hidden">
                         <img class="object-contain" src="./assets/img/product-4.jpg"/>
                     </div>
                     <h5 class="text-black text-sm mt-4">
@@ -155,10 +151,10 @@
             </p>
             <div class="grid grid-rows-3 grid-flow-col gap-4">
                 <div class="relative row-span-3 bg-black">
-                    <img class="absolute overflow-hidden h-full object-cover" src="./assets/img/category-1.jpg"/>
+                    <img class="absolute overflow-hidden h-full w-full object-cover" src="./assets/img/category-1.jpg"/>
                     <h3 class="absolute text-gray-700 font-bold text-xl bottom-8 left-8">Dress</h3>
                 </div>
-                <div class="relative overflow-hidden col-span-2 bg-black">
+                <div class="relative overflow-hidden col-span-2 h-96 bg-black">
                     <img class="absolute w-full object-cover" src="./assets/img/category-3.jpg"/>
                     <h3 class="absolute text-gray-700 font-bold text-xl bottom-8 left-8">Shirt</h3>
                 </div>
