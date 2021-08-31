@@ -1,0 +1,15 @@
+{
+  "name": "jongko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build-css": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rai Raksa Muhamad",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.2.9"
+  }
+}
