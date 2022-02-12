@@ -4,7 +4,8 @@
   "description": "TailwindCSS showcase",
   "main": "tailwind.config.js",
   "scripts": {
-    "build-css": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css",
+    "build-css": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css --minify",
+    "watch": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/raydeon7/tailwind-template/issues"
   },
-  "homepage": "https://github.com/raydeon7/tailwind-template#readme"
+  "homepage": "https://github.com/raydeon7/tailwind-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  }
 }

@@ -5,14 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "tailwindcss build src/style.css -o public/assets/css/style.css"
+    "build-css": "tailwindcss build src/style.css -o public/assets/css/style.css --minify",
+    "watch": "tailwindcss build src/style.css -o public/assets/css/style.css --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.10",
-    "tailwindcss": "^2.1.1"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.22"
   },
   "dependencies": {
     "live-server": "^1.2.1"

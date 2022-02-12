@@ -1,13 +1,10 @@
 module.exports = {
-  purge: [],
+  content: ["./index.html"],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
       'sans': ['Inter']
     },
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

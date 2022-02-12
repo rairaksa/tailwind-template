@@ -1,15 +1,9 @@
 module.exports = {
-  purge: [
-    './index.html'
-  ],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./index.html"],
   theme: {
     fontFamily: {
       'body': ['Spartan']
     },
-    extend: {},
-  },
-  variants: {
     extend: {},
   },
   plugins: [],

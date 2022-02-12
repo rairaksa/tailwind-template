@@ -1,10 +1,9 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: [
+  content: [
     './index.html'
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
       'handwriting': ['Style Script'],
@@ -16,7 +15,7 @@ module.exports = {
       current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      gray: colors.trueGray,
+      gray: colors.neutral,
       indigo: colors.indigo,
       red: colors.rose,
       yellow: colors.amber,
@@ -25,9 +24,6 @@ module.exports = {
       'rust': '#c25a3d',
       'biscotti': '#d9c8ac'
     }
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }
