@@ -4,9 +4,13 @@
   "description": "",
   "main": "",
   "scripts": {
-    "build-css": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css",
+    "build-css": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css --minify",
+    "watch": "npx tailwindcss build -i ./src/tailwind.css -o ./assets/css/app.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rai Raksa Muhamad",
+  "devDependencies": {
+    "tailwindcss": "^3.0.22"
+  },
   "license": "ISC"
 }
