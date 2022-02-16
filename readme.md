@@ -7,8 +7,9 @@ This repo contain free layouts and template that can be used in any project.
 Built with
 - <a href="https://tailwindcss.com">TailwindCSS</a> - CSS Framework
 
-Authors
+Contributors
 
 <a href='https://github.com/rairaksa'>Rai Raksa Muhamad</a>
+<a href='https://github.com/pikarin'>Muhammad Aditia Firmansyah</a>
 
 License
