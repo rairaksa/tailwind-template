@@ -3,56 +3,81 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html class="dark">
+<html class="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>TailwindCSS Showcase</title>
+        <title>Tailwind Projects</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/app.css">
     </head>
-    <body class="font-sans bg-gray-100 dark:bg-gray-800 transition">
-        <section class="navigator bg-gray-200 dark:bg-gray-900 transition w-full h-16">
-
-        </section>
-        <section class="hero flex flex-row px-64">
-            <div class="flex flex-col gap-4 w-full h-96 justify-center">
-                <h1 class="font-bold text-800 dark:text-gray-100 transition text-4xl">
-                    Tailwind Showcase
-                </h1>
-                <p class="font-bold text-gray-400 text-xl">
-                    Collection of HTML pages made with TailwindCSS, and it's free to use.
-                </p>
-            </div>
-        </section>
-        <section class="content bg-gray-200 dark:bg-gray-900 w-full px-64 pb-12">
-            <div class="showcase grid grid-cols-3 gap-16">
-                <div class="card h-auto rounded-lg overflow-hidden flex flex-col gap-4">
-                    <div class="image bg-white w-full h-96">
-                    </div>
-                    <div class="detail px-6 flex flex-col gap-1">
-                        <a href="./jongko/index.html" target="_blank">
-                            <h2 class="text-gray-400 text-2xl font-bold">E-commerce UI</h2>
-                        </a>
-                        <p class="text-gray-400 text-lg font-light">A ready to use html pages for simple e-commerce web apps.</p>
-                    </div>
+    <body class="font-sans bg-gradient-to-br from-curious-50 to-curious-100 dark:bg-gray-800 transition">
+        <section class="navigator">
+            <div class="container mx-auto flex justify-between items-center">
+                <label class="text-primary font-bold text-lg">Tailwind Projects.</label>
+                <div class="menu flex gap-4 py-4">
+                    <a href="javascript:;" class="text-primary hover:text-curious text-sm">
+                        Docs
+                    </a>
+                    <a href="javascript:;" class="text-primary hover:text-curious text-sm">
+                        Github
+                    </a>
                 </div>
             </div>
         </section>
-        <section class="footer flex flex-col items-center py-16 gap-4">
-            <h1 class="font-bold text-gray-400 text-4xl">
-                Let's talk
-            </h1>
-            <span class="font-regular text-gray-400 text-xl text-center leading-normal">
-                <p>
-                    Wanna get in touch or talk about a project?
-                </p>
-                <p>
-                    Feel free to contact me via email at
-                    <a href="mailto:rairaksa7@gmail.com">rairaksa7@gmail.com</a>
-                </p>
-            </span>
+        <section class="hero w-full h-96">
+            <div class="container mx-auto h-full flex flex-col justify-center gap-4">
+                <label class="w-1/2 text-primary font-bold text-4xl">Lorem ipsum dolor sit amet.</label>
+                <label class="text-secondary font-medium text-sm">Lorem ipsum dolor sit amet.</label>
+            </div>
+        </section>
+        <section class="catalog w-full h-auto pb-8">
+            <div class="container mx-auto h-auto">
+                <ul class="filter flex justify-center gap-4">
+                    <li>
+                        <a href="javascript:;" class="text-curious text-sm">All</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="text-secondary text-sm">Shop</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="text-secondary text-sm">Portfolio</a>
+                    </li>
+                </ul>
+                <div class="catalog-list w-full grid grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                    <a href="./jongko/index.html" target="_blank">
+                    <div class="relative w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm">
+                        <label class="absolute top-4 right-4 bg-curious-dark py-1 px-2 text-xs rounded-lg text-white">
+                            New
+                        </label>
+                        <div class="catalog-info absolute bottom-4 right-4 flex flex-col flex-end">
+                            <label class="font-bold text-curious-dark text-md text-right">
+                                Ecommerce
+                            </label>
+                            <label class="text-secondary text-xs text-right">
+                                Lorem ipsum dolor
+                            </label>
+                        </div>
+                    </div>
+                    </a>
+                    <div class="w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm">
+                    
+                    </div>
+                    <div class="w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm">
+                    
+                    </div>
+                    <div class="w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="footer flex flex-col items-center mt-8 pb-4 gap-4">
+            <label class="text-primary font-bold text-lg">
+                Tailwind Projects.
+            </label>
         </section>
         <div class="fixed theme-switcher bottom-6 right-6 bg-gray-400 rounded-md">
             <a href="#" id="theme-switcher" data-theme="dark" class="w-full h-full">
