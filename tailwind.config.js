@@ -7,6 +7,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        'milk-white': '#F5F5F5',
         // Primary
         'curious-dark': '#0E5A81',
         'curious': '#19A1E6',
@@ -38,6 +39,7 @@ module.exports = {
         'secondary': '#6B7280',
 
         'overlay-base': 'rgba(43, 42, 42, 0.8)',
+        'transparent': 'rgba(255, 255, 255, 0)',
       },},
   },
   plugins: [],

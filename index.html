@@ -12,50 +12,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/app.css">
     </head>
-    <body class="font-sans px-4 lg:px-0 bg-gradient-to-br from-curious-50 to-curious-100 dark:bg-gray-800 transition">
-        <section class="navigator">
-            <div class="container mx-auto flex justify-between items-center">
-                <label class="text-primary font-bold text-lg">Tailwind Projects.</label>
-                <div class="menu flex gap-4 py-4">
-                    <a href="javascript:;" class="text-primary hover:text-curious text-sm">
-                        Docs
-                    </a>
-                    <a href="javascript:;" class="text-primary hover:text-curious text-sm">
-                        Github
+    <body class="font-sans px-0 bg-curious-50 dark:bg-gray-800 transition">
+        <section class="header" style="background:url('assets/img/hero-background.png')">
+            <section class="navigator px-4 lg:px-0">
+                <div class="container mx-auto flex justify-between items-center">
+                    <label class="text-milk-white font-bold text-2xl">twproject.</label>
+                    <div class="menu hidden lg:flex gap-8 py-4">
+                        <a href="javascript:;" class="text-white hover:text-curious-dark text-lg font-bold">
+                            Documentation
+                        </a>
+                        <a href="javascript:;" class="text-white hover:text-curious-dark text-lg font-bold">
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="hero px-4 lg:px-0 w-full h-72 lg:h-[840px]">
+                <div class="container mx-auto h-full flex flex-col justify-center gap-4">
+                    <label class="w-full lg:w-1/2 text-milk-white font-bold text-4xl lg:text-7xl">Tailwind Based Templates.</label>
+                    <label class="mt-4 text-milk-white font-medium text-sm">Project templates build with tailwindcss.</label>
+                    <a href="#catalog">
+                        <button class="mt-6 max-w-min shrink bg-curious hover:bg-curious-dark rounded-lg py-3 px-8 font-bold text-milk-white">Explore</button>
                     </a>
                 </div>
-            </div>
+            </section>
         </section>
-        <section class="hero w-full h-72 lg:h-96">
-            <div class="container mx-auto h-full flex flex-col justify-center gap-4">
-                <label class="w-full lg:w-1/2 text-primary font-bold text-4xl">Lorem ipsum dolor sit amet.</label>
-                <label class="text-secondary font-medium text-sm">Lorem ipsum dolor sit amet.</label>
-            </div>
-        </section>
-        <section class="catalog w-full h-auto pb-8">
-            <div class="container mx-auto h-auto">
+        <section id="catalog" class="catalog w-full h-auto">
+            <div class="container px-4 lg:px-0 mt-8 mx-auto h-auto">
                 <ul class="filter flex justify-center gap-4">
                     <li>
-                        <a href="javascript:;" class="text-curious text-sm">All</a>
+                        <a href="javascript:;" class="text-curious hover:text-curious-dark font-bold text-lg">All</a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="text-secondary text-sm">Shop</a>
+                        <a href="javascript:;" class="text-secondary hover:text-curious-dark font-bold text-lg">Shop</a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="text-secondary text-sm">Portfolio</a>
+                        <a href="javascript:;" class="text-secondary hover:text-curious-dark font-bold text-lg">Portfolio</a>
                     </li>
                 </ul>
-                <div class="catalog-list w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-4">
+                <div class="catalog-list w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
                     <a href="./jongko/index.html" target="_blank">
-                    <div class="relative w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm">
-                        <label class="absolute top-4 right-4 bg-curious-dark py-1 px-2 text-xs rounded-lg text-white">
-                            New
-                        </label>
-                        <div class="catalog-info absolute bottom-4 right-4 flex flex-col flex-end">
-                            <label class="font-bold text-curious-dark text-md text-right">
+                    <div class="relative w-auto h-72 lg:h-96 bg-noir-50 rounded-lg shadow-noir-50 shadow-sm overflow-hidden">
+                        <div class="invisible hover:visible bg-overlay-base absolute w-full h-full z-10">
+
+                        </div>
+                        <div class="catalog-info absolute bottom-4 left-4 flex flex-col flex-end">
+                            <label class="font-bold text-curious-dark text-md">
                                 Ecommerce
                             </label>
-                            <label class="text-secondary text-xs text-right">
+                            <label class="text-secondary text-xs">
                                 Lorem ipsum dolor
                             </label>
                         </div>
